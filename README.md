@@ -9,3 +9,5 @@ In GitHub, open **Settings → Pages** and select:
 - Folder: **/(root)**
 
 The portrait file is `portrait.jpg` in the repository root. The HTML uses the same exact filename and does not depend on JavaScript, so it should display directly on GitHub Pages.
+
+The footer on every page contains the NHH address, email address, and LinkedIn link. The dedicated Contact page also includes phone, Bluesky, X/Twitter, and the NHH website.

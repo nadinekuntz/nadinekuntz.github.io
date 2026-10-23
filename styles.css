@@ -232,14 +232,46 @@ h3 {
   font-size: 0.9rem;
 }
 
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+.footer-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem 3rem;
+  align-items: end;
 }
 
-.footer-inner a { color: var(--muted); }
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+}
+
+.footer-contact span {
+  flex-basis: 100%;
+}
+
+.footer-contact a,
+.copyright {
+  color: var(--muted);
+}
+
+.contact-list {
+  border-top: 1px solid var(--line);
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.25fr) minmax(0, 0.75fr);
+  gap: 2rem;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
 
 @media (max-width: 780px) {
   body { font-size: 16px; }
@@ -253,4 +285,6 @@ h3 {
   .fields li::after { content: ""; margin: 0; }
   .fields { gap: 0.5rem 1rem; }
   .cv-viewer { height: 720px; }
+  .footer-content { grid-template-columns: 1fr; align-items: start; }
+  .contact-row { grid-template-columns: 1fr; gap: 0.35rem; }
 }
