@@ -1,19 +1,11 @@
-# Nadine Kuntz — Academic website
+# Nadine Kuntz — GitHub Pages site
 
-Static academic website for GitHub Pages.
+Upload every file in this folder to the root of the `nadinekuntz.github.io` repository.
 
-## Publish
+In GitHub, open **Settings → Pages** and select:
 
-1. Upload all files and folders in this directory to the root of the `nadinekuntz.github.io` repository.
-2. In GitHub, open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**, then save.
-5. The site will appear at `https://nadinekuntz.github.io`.
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
 
-## Edit
-
-- Main page: `index.html`
-- Research page: `research.html`
-- CV page: `cv.html`
-- Site styling: `styles.css`
-- Profile photo and CV: `assets/`
+The portrait file is `portrait.jpg` in the repository root. The HTML uses the same exact filename and does not depend on JavaScript, so it should display directly on GitHub Pages.
