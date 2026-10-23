@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nadinekuntz.github.io/sitemap.xml
